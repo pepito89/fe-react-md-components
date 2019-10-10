@@ -72,8 +72,8 @@ Object.defineProperty(exports, "Input", {
   }
 });
 
-var _Button = _interopRequireDefault(require("./Button"));
+var _Button = _interopRequireDefault(require("./src/Button"));
 
-var _Input = _interopRequireDefault(require("./Input"));
+var _Input = _interopRequireDefault(require("./src/Input"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
