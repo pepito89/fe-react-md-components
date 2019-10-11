@@ -1,9 +1,8 @@
 const nodeExternals = require('webpack-node-externals');
-
 const path = require('path');
 
 module.exports = {
-  entry: './src/lib/index.js',
+  entry: './src/lib/index.jsx',
   externals: [nodeExternals()],
   module: {
     rules: [
@@ -14,20 +13,10 @@ module.exports = {
       }
     ]
   },
-  /*
-  resolve: {
-    extensions: ['*', '.js','.jsx']
-  },
-  */
   output: {
     path: path.resolve(__dirname, './dist/lib'),
     filename: 'index.js',
     library: '',
     libraryTarget: 'commonjs'
-  },
-  /*
-  devServer: {
-    contentBase: './dist'
   }
-  */
 };
