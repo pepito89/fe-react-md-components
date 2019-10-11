@@ -2,12 +2,12 @@ const nodeExternals = require('webpack-node-externals');
 const path = require('path');
 
 module.exports = {
-  entry: './src/lib/index.jsx',
+  entry: './src/lib/index.js',
   externals: [nodeExternals()],
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
+        test: /\.(js)$/,
         exclude: /node_modules/,
         loader: 'babel-loader'
       }

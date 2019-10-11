@@ -4,14 +4,12 @@
   "description": "A react components library for Adludio based on Material Design principles",
   "main": "./dist/lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/piotr-adludio/fe-react-md-components.git"
   },
-  "author": "Piotr Pladzyk",
   "license": "UNLICENSED",
   "homepage": "",
   "files": [
