@@ -5,7 +5,6 @@
   "main": "./dist/lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build2": "./node_modules/.bin/babel src --out-file index.js",
     "build": "webpack --mode=production"
   },
   "repository": {
@@ -13,21 +12,15 @@
     "url": "git+https://github.com/piotr-adludio/fe-react-md-components.git"
   },
   "author": "Piotr Pladzyk",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "homepage": "",
   "files": [
 	"dist"
   ],
-  "peerDependencies": {
-    "react": "^16.6.1",
-    "react-dom": "^16.6.3"
-  },
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
-    "@babel/preset-react": "^7.6.3",
     "babel-loader": "^8.0.6",
-    "parcel-bundler": "^1.12.4",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "webpack": "^4.41.0",
