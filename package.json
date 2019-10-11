@@ -2,8 +2,9 @@
   "name": "adludio-fe-react-md-components",
   "version": "1.0.0",
   "description": "A react components library for Adludio based on Material Design principles",
-  "main": "./dist/lib/index.js",
+  "main": "./build/dist/lib/index.js",
   "scripts": {
+    "start": "webpack-dev-server",
     "build": "webpack --mode=production"
   },
   "repository": {
@@ -13,16 +14,18 @@
   "license": "UNLICENSED",
   "homepage": "",
   "files": [
-	"dist"
+    "dist"
   ],
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
     "babel-loader": "^8.0.6",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "webpack": "^4.41.0",
     "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2",
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
