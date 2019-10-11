@@ -14,7 +14,7 @@
   "license": "UNLICENSED",
   "homepage": "",
   "files": [
-    "dist"
+    "build/dist"
   ],
   "devDependencies": {
     "@babel/core": "^7.6.4",
