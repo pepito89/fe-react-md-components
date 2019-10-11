@@ -16,7 +16,7 @@
   "license": "ISC",
   "homepage": "",
   "files": [
-	"dist/lib/index.js"
+	"dist"
   ],
   "peerDependencies": {
     "react": "^16.6.1",
