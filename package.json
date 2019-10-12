@@ -4,7 +4,7 @@
   "description": "A react components library for Adludio based on Material Design principles",
   "main": "./dist/lib/index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.dev.js",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
     "start-dev": "webpack-dev-server --mode development --config dev.webpack.config.js",
     "build": "webpack --config webpack.prod.js"
   },
