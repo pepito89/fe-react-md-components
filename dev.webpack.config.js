@@ -15,7 +15,7 @@ module.exports = {
     ]
   },
   output: {
-    path: path.resolve(__dirname, './build/dist/lib'),
+    path: path.resolve(__dirname, './dist/lib'),
     publicPath: '/',
     filename: 'index.js'
   },
@@ -25,7 +25,7 @@ module.exports = {
   },
   */
   devServer: {
-    contentBase: "./build"
+    contentBase: "./dist"
   },
   plugins: [
     new HtmlWebpackPlugin({
