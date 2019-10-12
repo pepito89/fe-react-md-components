@@ -5,7 +5,7 @@ import Button from "@material-ui/core/Button"
 export default props => (
     <Button
       variant = "contained"
-      color = "primary"
+      color = "secondary"
     >
       {props.children}
     </Button>

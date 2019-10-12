@@ -1,14 +1,13 @@
 import React from 'react';
 
-import { Button } from './lib/';
+import { Input, Button } from './lib/';
 
 class App extends React.Component{
   render(){
     return (
       <div>
-        <Button>
-          Finally:D
-        </Button>
+        <Input />
+        <Button>Choco</Button>
       </div>
     );
   }
