@@ -7,7 +7,7 @@ class App extends React.Component{
     return (
       <div>
         <Button>
-          Finally
+          Finally:D
         </Button>
       </div>
     );
